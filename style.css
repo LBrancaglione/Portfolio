@@ -347,7 +347,7 @@ a {
 /*Projects style ends here*/
 @media (max-width: 400px){
   .home .slide-container .slide .image {
-    width: 350px;
+    width: 150px;
     margin: 0 auto;
   }
 
