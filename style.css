@@ -557,7 +557,7 @@ a {
   /*square responsive ends here*/
 }
 
-@media (min-width: 400px) and (max-width: 300px){
+@media (min-width: 300px) and (max-width: 400px){
   .home .slide-container .slide .image {
     width: 350px;
     margin: 0 auto;
