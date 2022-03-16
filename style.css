@@ -565,16 +565,16 @@ a {
 
   .project-images .big {
     max-width: 350px;
-    margin-left:4px ;
+    margin-left:5px ;
   }
   .project-images .small-1 {
     max-width: 350px;
-    margin-left:4px ;
+    margin-left:5px ;
   }
 
   .project-video video {
     display: block;
     max-width: 350px;
-    margin-left: 2px;
+    margin-left: 5px;
   }
 }
