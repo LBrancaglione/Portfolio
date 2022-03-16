@@ -557,3 +557,31 @@ a {
   /*square responsive ends here*/
 }
 
+@media (max-width: 320px) {
+  .home .slide-container .slide .image {
+    width: 250px;
+    margin-left: 8px;
+  }
+
+  .project-images img {
+    margin-left: none;
+  }
+
+  .project-images .big {
+    max-width: 250px;
+  }
+
+  .project-images .small-1 {
+    max-width: 250px;
+  }
+
+  .project-video video {
+    max-width: 250px;
+    margin-left: none;
+  }
+
+  .home #prev, .home #next {
+    border-radius: 90%;
+    font-size: 1rem;
+  }
+}
