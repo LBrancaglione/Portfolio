@@ -367,7 +367,7 @@ a {
   }
 }
 /*Responsive for 401px to 1023 screen*/
-@media(min-width:401px) and (max-width:1023px){
+@media (min-width:300px) and (max-width: 400px){
 
   /*Nav Bar Responsive starts here*/
   #btn-mobile {
@@ -449,7 +449,7 @@ a {
   }
 
   .home .slide-container .slide .image {
-    width: 400px;
+    width: 350px;
     grid-column: 1;
     grid-row: 1/2;
     padding: 0;
@@ -537,8 +537,8 @@ a {
 
   .project-video video {
     display: block;
-    max-width: 400px;
-    margin-left: 20px;
+    max-width: 350px;
+    margin-left:5px;
   }
 
   .projects-arts {
