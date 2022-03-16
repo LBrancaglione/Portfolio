@@ -345,7 +345,28 @@ a {
 
 /*Cridet style ends here*/
 /*Projects style ends here*/
-/*Responsive for 600px screen*/
+@media (max-width: 400px){
+  .home .slide-container .slide .image {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .project-images .big {
+    max-width: 350px;
+    margin-left:4px ;
+  }
+  .project-images .small-1 {
+    max-width: 350px;
+    margin-left:4px ;
+  }
+
+  .project-video video {
+    display: block;
+    max-width: 350px;
+    margin-left: 2px;
+  }
+}
+/*Responsive for 401px to 1023 screen*/
 @media(min-width:401px) and (max-width:1023px){
 
   /*Nav Bar Responsive starts here*/
@@ -557,24 +578,4 @@ a {
   /*square responsive ends here*/
 }
 
-@media (max-width: 400px){
-  .home .slide-container .slide .image {
-    width: 350px;
-    margin: 0 auto;
-  }
 
-  .project-images .big {
-    max-width: 350px;
-    margin-left:4px ;
-  }
-  .project-images .small-1 {
-    max-width: 350px;
-    margin-left:4px ;
-  }
-
-  .project-video video {
-    display: block;
-    max-width: 350px;
-    margin-left: 2px;
-  }
-}
