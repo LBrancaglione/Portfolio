@@ -428,7 +428,7 @@ a {
   }
 
   .home .slide-container .slide .image {
-    width: 400px;
+    width: 350px;
     grid-column: 1;
     grid-row: 1/2;
     padding: 0;
@@ -493,7 +493,11 @@ a {
   }
 
   .project-images .big {
-    max-width: 400px;
+    max-width: 300px;
+  }
+  
+  .project-images .small-1{
+    max-width: 300px;
   }
 
   .project-images .small-2 {
