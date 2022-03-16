@@ -346,7 +346,7 @@ a {
 /*Cridet style ends here*/
 /*Projects style ends here*/
 /*Responsive for 600px screen*/
-@media (min-width:401px) and (max-width: 600px) {
+@media (min-width:400px) and (max-width: 600px) {
 
   /*Nav Bar Responsive starts here*/
   #btn-mobile {
@@ -557,7 +557,7 @@ a {
   /*square responsive ends here*/
 }
 
-@media (min-width:320px) and (max-width: 400px) {
+@media (min-width:320px) and (max-width: 399px) {
 
   /*Nav Bar Responsive starts here*/
   #btn-mobile {
@@ -639,7 +639,7 @@ a {
   }
 
   .home .slide-container .slide .image {
-    width: 250px;
+    width: 350px;
     grid-column: 1;
     grid-row: 1/2;
     padding: 0;
@@ -695,7 +695,7 @@ a {
   }
 
   .project-images img {
-    margin-left: 5px;
+    margin-left: 20px;
   }
 
   .project p {
@@ -704,11 +704,11 @@ a {
   }
 
   .project-images .big {
-    max-width: 250px;
+    max-width: 350px;
   }
 
   .project-images .small-1 {
-    max-width: 250px;
+    max-width: 350px;
   }
 
   .project-images .small-2 {
@@ -731,8 +731,8 @@ a {
 
   .project-video video {
     display: block;
-    max-width: 250px;
-    margin-left: 5px;
+    max-width: 300px;
+    margin-left: 20px;
   }
 
   .projects-arts {
