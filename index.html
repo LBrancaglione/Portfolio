@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
+</head>
+
+<body>
+    <!--Nav Bar starts here-->
+    <header class="header">
+        <a class="logo-nav">Minha logo</a>
+        <nav id="nav">
+            <button id="btn-mobile" aria-label="abrir menu" aria-haspopup="" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul class="menu" role="menu">
+                <li>
+                    <a href="/">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="/">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="/">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="/">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Nav Bar ends here-->
+    <!--Main content starts here-->
+    <main>
+        <section class="home" id="home">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content">
+                        <span>Front end mentor challenge</span>
+                        <h3>Card</h3>
+                        <p>Desafio de projeto frontend, card responsivo.</p>
+                    </div>
+                    <div class="image">
+                        <img src="images/slider/frontendmentor01.jpg.png" class="item">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Front end mentor challenge</span>
+                        <h3>Status Card</h3>
+                        <p>Desafio de projeto frontend, card de status responsivo.</p>
+                    </div>
+                    <div class="image">
+                        <img src="images/slider/frontendmentor02.jpg.png" class="item">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Front end mentor challenge</span>
+                        <h3>Card Slider</h3>
+                        <p>Desafio de projeto frontend, card com slider alinhado a direita responsivo.</p>
+                    </div>
+                    <div class="image">
+                        <img src="images/slider/frontendmentor03.png" class="item">
+                    </div>
+                </div>
+            </div>
+            <div id="prev" class="fa fa-chevron-left" onclick="prev()"></div>
+            <div id="next" class="fa fa-chevron-right" onclick="next()"></div>
+        </section>
+        <!--Projects starts here-->
+        <h1 class="title">Projetos</h1>
+        <section class="projects">
+            <h1>C# Crud</h1>
+            <div class="project">
+                <div class="project-images">
+                    <img id="image-1-big" class="big" src="images/projetos/Captura de Tela (116).png" alt="" srcset="">
+                </div>
+                <div class="project-images">
+                    <img id="image-1" class="small-1" src="images/projetos/Captura de Tela (117).png" alt="" srcset="">
+                </div>
+                <div class="project-images">
+                    <img id="image-1" class="small-2" src="images/projetos/Captura de Tela (116).png" alt="" srcset="">
+                </div>
+                <p>O projeto desenvolvido em c# baseado em diagramas UML, o sistema é capaz de realizar registros, exclusões ou edições em um banco de dados (foi utilizado Sql server).</p>
+            </div>
+        </section>
+        <section class="projects">
+            <h1>Banco de dados para Crud</h1>
+            <div class="project">
+                <div class="project-images">
+                    <img id="image-2-big" class="big" src="images/projetos/bdSql.png" alt="" srcset="">
+                </div>
+                <div class="project-images">
+                    <img id="image-2" class="small-1" src="images/projetos/scriptSql.png" alt="" srcset="">
+                </div>
+                <div class="project-images">
+                    <img id="image-2" class="small-2" src="images/projetos/bdSql.png" alt="" srcset="">
+                </div>
+                <p>Banco desenvolvido a partir de diagramas UML visando receber dados de um crud em c#.</p>
+            </div>
+        </section>
+        <section class="projects">
+            <h1>Gerar arquivo .txt usando C</h1>
+            <div class="project">
+                <div class="project-images">
+                    <img id="image-3-big" class="big" src="images/projetos/cexec.png" alt="" srcset="">
+                </div>
+                <div class="project-images">
+                    <img id="image-3" class="small-1" src="images/projetos/cresult.png" alt="" srcset="">
+                </div>
+                <div class="project-images">
+                    <img id="image-3" class="small-2" src="images/projetos/cexec.png" alt="" srcset="">
+                </div>
+                <p>O executavel é capaz de gerar arquivos com extensões editaveis, visando gerar registros de pacientes, podendo ser editados mesmo depois de criados. Este projeto não possui vínculo com nenhum banco de dados.</p>
+            </div>
+        </section>
+        <h1 class="title">Artes</h1>
+        <section class="projects-videos">
+            <h1>Pintura</h1>
+            <div class="project">
+                <div class="project-video">
+                    <video controls poster="images/video-cover/soldier76.jpg" src="video/10000000_1099221530532901_553393172359729615_n.mp4"></video>
+                </div>
+            </div>
+            <section class="projects-arts">
+                <h1>Edits</h1>
+                <div class="project">
+                    <div class="art-slider">
+                        <img src="images/arts/harrypoter.jpg" alt="">
+                        <img src="images/arts/luaMontagem.jpg" alt="">
+                        <img src="images/arts/wolf.jpg" alt="">
+                        <img src="images/arts/samurai.jpg" alt="">
+                        <img src="images/arts/zombiesmontage.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--Projects ends here-->
+    </main>
+    <!--Main content ends here-->
+    <!--Footer starts here-->
+    <footer>
+        <section class="square-block">
+            <div class="square">
+                <img src="images/icons/icons8-usuário-80.png" alt="/">
+                <h1>Quem sou</h1>
+                <p>Meu Nome é Leonardo Brancaglione, sou analista e desenvolvedor de sistemas, formado em nivel técnico e concluindo a gradução superior. Sou morador de Barra Bonita, São Paulo, tenho 19 anos.</p>
+            </div>
+            <div class="square">
+                <img src="images/icons/icons8-flicker-free-80.png" alt="/">
+                <h1>Minhas Habilidades</h1>
+                <ul>
+                    <li>
+                        <i class="fa fa-star"></i> HTML/CSS e JS
+                    </li>
+                    <li>
+                        <i class="fa fa-star"></i> SQL
+                    </li>
+                    <li>
+                        <i class="fa fa-star"></i>PHOTOSHOP
+                    </li>
+                </ul>
+            </div>
+            <div class="square">
+                <img src="images/icons/icons8-telefone-96.png" alt="/">
+                <h1>Meu contato</h1>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone-office"></i> +55(14)991-575793
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i> leonardobrancaglione@hotmail.com
+                    </li>
+                    <li>
+                        <i class="fa fa-at"></i><a href="https://www.instagram.com/leonardobrancaglione/">Leonardo Brancaglione</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Cridet starts here-->
+        <section class="cridet">
+            <div class="box">
+                <h3>All rights reserved by Leonardo Brancaglione</h3>
+            </div>
+        </section>
+        <!--Cridet ends here-->
+    </footer>
+    <!--Footer ends here-->
+    <script src="script.js"></script>
+</body>
+
+</html>
