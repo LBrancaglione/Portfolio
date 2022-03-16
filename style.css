@@ -556,3 +556,25 @@ a {
 
   /*square responsive ends here*/
 }
+
+@media (min-height: 300px),(max-width: 400px){
+  .home .slide-container .slide .image {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .project-images .big {
+    max-width: 350px;
+    margin-left:4px ;
+  }
+  .project-images .small-1 {
+    max-width: 350px;
+    margin-left:4px ;
+  }
+
+  .project-video video {
+    display: block;
+    max-width: 350px;
+    margin-left: 2px;
+  }
+}
