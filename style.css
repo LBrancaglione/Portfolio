@@ -639,7 +639,7 @@ a {
   }
 
   .home .slide-container .slide .image {
-    width: 350px;
+    width: 250px;
     grid-column: 1;
     grid-row: 1/2;
     padding: 0;
@@ -695,7 +695,7 @@ a {
   }
 
   .project-images img {
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   .project p {
@@ -704,11 +704,11 @@ a {
   }
 
   .project-images .big {
-    max-width: 350px;
+    max-width: 250px;
   }
 
   .project-images .small-1 {
-    max-width: 350px;
+    max-width: 250px;
   }
 
   .project-images .small-2 {
@@ -731,8 +731,8 @@ a {
 
   .project-video video {
     display: block;
-    max-width: 300px;
-    margin-left: 20px;
+    max-width: 250px;
+    margin-left: 5px;
   }
 
   .projects-arts {
